@@ -32,7 +32,9 @@ if (output.errors) {
   });
 }
 
-console.log(output.contracts["lottery.sol"].LotteryA);
+//console.log(output.contracts["lottery.sol"].LotteryA);
+
+module.export = output.contracts["lottery.sol"].LotteryA;
 
 /*else {
     const contracts = output.contracts["lottery.sol"];
